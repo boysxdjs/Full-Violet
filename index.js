@@ -1,4 +1,4 @@
-console.log('👻 Only Bot 👻');
+console.log('🤖 Only Bot 🤖');
 import {join, dirname} from 'path';
 import {createRequire} from 'module';
 import {fileURLToPath} from 'url';
@@ -17,7 +17,7 @@ say('El Mejor\nOnly Bot', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']});
-say(`👻 Only Bot 👻`, {
+say(`🤖 Only Bot 🤖`, {
   font: 'console',
   align: 'center',
   gradient: ['red', 'magenta']});
@@ -32,7 +32,7 @@ function start(file) {
   isRunning = true;
   const args = [join(__dirname, file), ...process.argv.slice(2)];
 
-  /** say('[ 👻 ] Escanea el código QR o introduce el código de emparejamiento en WhatsApp.', {
+  /** say('[ 🤖 ] Escanea el código QR o introduce el código de emparejamiento en WhatsApp.', {
     font: 'console',
     align: 'center',
     gradient: ['red', 'magenta']}); **/
@@ -56,7 +56,7 @@ function start(file) {
   });
   p.on('exit', (_, code) => {
     isRunning = false;
-    console.error('[ 👻 ] Ocurrio un error inesperado:', code);
+    console.error('[ 🤖 ] Ocurrio un error inesperado:', code);
 
     p.process.kill();
     isRunning = false;
