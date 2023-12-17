@@ -26,9 +26,8 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   *Ey , Hola VioletLovers ${taguser} Te Presento Este Bot  𓍢ִ໋💜⊹*
 
 ╔══════❀ ・ ° ・ ❀══════╗
- ► 𓍢ִ໋💜⊹ Creador : Cristhofer
+ ► 𓍢ִ໋💜⊹ Creador : Violet Evergarden
  ► 𓍢ִ໋💜⊹ Numero ; +54 9 3751 50-9176
- ► 𓍢ִ໋💜⊹ Adquirir : +51 936 994 155
  ► 𓍢ִ໋💜⊹ Ig : https://instagram.com/_dianita.dzn
  ► 𓍢ִ໋💜⊹ VioletCoins ${money}
  ${readMore}
