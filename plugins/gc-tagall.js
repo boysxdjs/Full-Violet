@@ -5,7 +5,7 @@ const handler = async (m, {isOwner, isAdmin, conn, text, participants, args, com
     throw false;
   }
   const pesan = args.join` `;
-  const oi = `*𝐃𝐞𝐬𝐞𝐚𝐬 𝐂𝐨𝐦𝐩𝐫𝐚𝐫 𝐄𝐥 𝐁𝐨𝐭 ? Wa.me/51906528530  𓍢ִ໋💜⊹* ${pesan}`;
+  const oi = `* ${pesan}`;
   let teks = `*𝗩𝗶𝗼𝗹𝗲𝘁 𝗕𝗼𝘁 𝐃𝐢𝐜𝐞 𝐐𝐮𝐞 𝐓𝐞 𝐀𝐜𝐭𝐢𝐯𝐞𝐬 𝐏𝐥𝐚𝐧𝐭𝐢𝐭𝐚 🌱*\n\n${oi}\n\n`;
   for (const mem of participants) {
     teks += ` 𓍢ִ໋💜⊹┣➥ @${mem.id.split('@')[0]}\n`;

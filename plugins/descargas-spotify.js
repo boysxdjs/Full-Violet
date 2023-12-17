@@ -5,7 +5,7 @@ import fs from 'fs';
 import axios from 'axios';
 
 const handler = async (m, { conn, text, usedPrefix, command }) => {
- if (!text) throw `👻 𝗢𝗡𝗟𝗬 𝗕𝗢𝗧 👻\n\n*[ 🦂 ] Hace falta el título de la canción de Spotify.*\n\n*[ 💡 ] Ejemplo:* _${usedPrefix + command} Good Feeling - Flo Rida_`;
+ if (!text) throw `𓍢ִ໋💜⊹ 𝗩𝗜𝗢𝗟𝗘𝗧 𝗕𝗢𝗧  𓍢ִ໋💜⊹\n\n*[ 🦂 ] Hace falta el título de la canción de Spotify.*\n\n*[ 💡 ] Ejemplo:* _${usedPrefix + command} Good Feeling - Flo Rida_`;
   try {
     const res = await fetch(global.API('ApiEmpire', '/api/spotifysearch?text=' + text))
     const data = await res.json()
@@ -16,7 +16,7 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
     const info = await infos.json()
     const spty = info.spty.resultado
     const img = await (await fetch(`${spty.thumbnail}`)).buffer()  
-    let spotifyi = ` 👻 𝗢𝗡𝗟𝗬 𝗕𝗢𝗧 👻\n\n`
+    let spotifyi = ` 𓍢ִ໋💜⊹ 𝗩𝗜𝗢𝗟𝗘𝗧 𝗕𝗢𝗧  𓍢ִ໋💜⊹\n\n`
         spotifyi += ` ▢ *Título:* ${spty.title}\n\n`
         spotifyi += ` ▢ *Artista:* ${spty.artist}\n\n`
         spotifyi += ` ▢ *Álbum:* ${spty.album}\n\n`                 
@@ -26,7 +26,7 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
     await conn.sendMessage(m.chat, {audio: music.data, fileName: `${spty.name}.mp3`, mimetype: 'audio/mpeg'}, {quoted: m});
   } catch (error) {
     console.error(error);
-    throw '👻 𝗢𝗡𝗟𝗬 𝗕𝗢𝗧 👻\n\n[ 🦂 ] Ocurrió un error. Por favor, inténtalo de nuevo más tarde.*';
+    throw '𓍢ִ໋💜⊹ 𝗩𝗜𝗢𝗟𝗘𝗧 𝗕𝗢𝗧  𓍢ִ໋💜⊹\n\n[ 🦂 ] Ocurrió un error. Por favor, inténtalo de nuevo más tarde.*';
   }
 };
 handler.command = /^(spotify|music)$/i;

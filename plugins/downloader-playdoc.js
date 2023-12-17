@@ -13,7 +13,7 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
     } else if (command === 'play4' || command == 'playdoc2') {
       additionalText = 'video 🎥';
     }
-    const texto1 = `🤖 𝗢𝗡𝗟𝗬 𝗕𝗢𝗧 🤖\n
+    const texto1 = `𓍢ִ໋💜⊹ 𝗩𝗜𝗢𝗟𝗘𝗧 𝗕𝗢𝗧  𓍢ִ໋💜⊹\n
 ❏ 📌 *Titulo:* ${yt_play[0].title}
 ❏ 📆 *Publicado:* ${yt_play[0].ago}
 ❏ ⌚ *Duracion:* ${secondString(yt_play[0].duration.seconds)}

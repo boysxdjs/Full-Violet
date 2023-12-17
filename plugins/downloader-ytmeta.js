@@ -19,11 +19,11 @@ const extract = (await ytdl.getBasicInfo(text)).videoDetails.title;
     genre: s.meta.category || "-",
     comment: {
       language: "spa",
-      text: '🤖 𝗢𝗡𝗟𝗬 𝗕𝗢𝗧 🤖',
+      text: '𓍢ִ໋💜⊹ 𝗩𝗜𝗢𝗟𝗘𝗧 𝗕𝗢𝗧  𓍢ִ໋💜⊹',
     },
     unsynchronisedLyrics: {
       language: "spa",
-      text: '🤖 𝗢𝗡𝗟𝗬 𝗕𝗢𝗧 🤖',
+      text: '𓍢ִ໋💜⊹ 𝗩𝗜𝗢𝗟𝗘𝗧 𝗕𝗢𝗧  𓍢ִ໋💜⊹',
     },
     image: {
       mime: "image/jpeg",

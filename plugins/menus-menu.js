@@ -34,14 +34,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ${readMore}
 ╚══════❀ ・ ° ・ ❀══ ════╝
 
-*« COMPRAR BOT »*
-
-╔══════❀ ・ ° ・ ❀══════╗
- ► 𓍢ִ໋💜⊹ _${usedPrefix}Yape *< Comprar Bot >*_
- ► 𓍢ִ໋💜⊹ _${usedPrefix}Vendedores *< Comprar Bot >*_
- ► 𓍢ִ໋💜⊹ _${usedPrefix}PrecioFull *< Comprar Bot Full >*_
-╚══════❀ ・ ° ・ ❀══ ════╝
-
  *« MENUS ADICIONALES »*
  
 ╔══════❀ ・ ° ・ ❀══════╗
@@ -54,10 +46,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ╔══════❀ ・ ° ・ ❀══════╗
  ► 𓍢ִ໋💜⊹ _${usedPrefix}grupos_
  ► 𓍢ִ໋💜⊹ _${usedPrefix}estado_
- ► 𓍢ִ໋💜⊹ _${usedPrefix}infobot_
- ► 𓍢ִ໋💜⊹ _${usedPrefix}AlacranSpeed_
- ► 𓍢ִ໋💜⊹ _${usedPrefix}donar_
- ► 𓍢ִ໋💜⊹ _${usedPrefix}owner_
  ► 𓍢ִ໋💜⊹ _${usedPrefix}reporte *<txt>*_
  ► 𓍢ִ໋💜⊹ _${usedPrefix}join *<wagp_url>*_
  ► 𓍢ִ໋💜⊹ _${usedPrefix}fixmsgespera_
