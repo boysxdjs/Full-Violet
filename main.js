@@ -511,7 +511,7 @@ setInterval(async () => {
   if (stopped === 'close' || !conn || !conn.user) return;
   const _uptime = process.uptime() * 1000;
   const uptime = clockString(_uptime);
-  const bio = `𝗘𝘀𝘁𝗲 𝗨𝘀𝘂𝗮𝗿𝗶𝗼 𝗛𝗮𝗰𝗲 𝗨𝘀𝗼 𝗗𝗲 𝗢𝗻𝗹𝘆 𝗕𝗼𝘁 - 𝗩𝗶𝗼𝗹𝗲𝘁 𝗕𝗼𝘁  𓍢ִ໋💜⊹`;
+  const bio = `𝗘𝘀𝘁𝗮𝘀 𝗩𝗶𝗲𝗻𝗱𝗼 𝗘𝗹 𝗣𝗲𝗿𝗳𝗶𝗹 𝗗𝗲 𝗩𝗶𝗼𝗹𝗲𝘁 𝗕𝗼𝘁 𓍢ִ໋💜⊹`;
   await conn.updateProfileStatus(bio).catch((_) => _);
 }, 60000);
 function clockString(ms) {
